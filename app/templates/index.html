@@ -1,10 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Hệ thống tìm kiếm ảnh mặt trẻ em</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        .container {
+            max-width: 800px;
+            margin-top: 50px;
+        }
+        .upload-area {
+            border: 2px dashed #ccc;
+            border-radius: 5px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .upload-area:hover {
+            border-color: #0d6efd;
+        }
+        .feature-stats {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .weight-slider {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div class="container">
+        <h1 class="text-center mb-4">Hệ thống tìm kiếm ảnh mặt trẻ em</h1>
+        <p class="text-center text-muted">Sử dụng MediaPipe và PostgreSQL</p>
+
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div class="alert alert-warning">
+              {{ messages[0] }}
+            </div>
+          {% endif %}
+        {% endwith %}
+
+        <div class="card">
+            <div class="card-body">
+                <form action="/search" method="post" enctype="multipart/form-data">
+                    <div class="upload-area">
+                        <h5>Tải lên ảnh để tìm kiếm</h5>
+                        <p>Tải lên ảnh chân dung một trẻ em để tìm những ảnh tương tự</p>
+                        <input type="file" name="file" class="form-control" accept="image/*">
+                    </div>
+
+                    <div class="weight-slider">
+                        <h5>Tùy chỉnh trọng số đặc trưng</h5>
+                        <div class="mb-3">
+                            <label for="weight_landmarks" class="form-label">MediaPipe Landmarks (0.4)</label>
+                            <input type="range" class="form-range" min="0" max="1" step="0.1" id="weight_landmarks" name="weight_landmarks" value="0.4">
+                        </div>
+                        <div class="mb-3">
+                            <label for="weight_detection" class="form-label">MediaPipe Detection (0.2)</label>
+                            <input type="range" class="form-range" min="0" max="1" step="0.1" id="weight_detection" name="weight_detection" value="0.2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="weight_attributes" class="form-label">Facial Attributes (0.2)</label>
+                            <input type="range" class="form-range" min="0" max="1" step="0.1" id="weight_attributes" name="weight_attributes" value="0.2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="weight_hog" class="form-label">HOG Features (0.2)</label>
+                            <input type="range" class="form-range" min="0" max="1" step="0.1" id="weight_hog" name="weight_hog" value="0.2">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100 mt-3">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+
+        {% if feature_stats %}
+        <div class="feature-stats">
+            <h4>Thống kê dữ liệu:</h4>
+            <ul class="list-group">
+                {% for feature_type, count in feature_stats.items() %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ feature_type }}
+                    <span class="badge bg-primary rounded-pill">{{ count }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="mt-4">
+            <h4>Hướng dẫn sử dụng:</h4>
+            <ol>
+                <li>Tải lên ảnh chân dung trẻ em</li>
+                <li>Điều chỉnh trọng số các đặc trưng nếu cần</li>
+                <li>Nhấn "Tìm kiếm"</li>
+                <li>Hệ thống sẽ hiển thị 3 ảnh giống nhất từ cơ sở dữ liệu</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Update slider labels when values change
+        document.querySelectorAll('.form-range').forEach(slider => {
+            slider.addEventListener('input', function() {
+                this.previousElementSibling.textContent =
+                    this.previousElementSibling.textContent.split('(')[0] +
+                    '(' + parseFloat(this.value).toFixed(1) + ')';
+            });
+        });
+    </script>
 </body>
 </html>

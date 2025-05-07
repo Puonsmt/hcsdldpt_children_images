@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>So sánh ảnh</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        .container {
+            max-width: 1000px;
+            margin-top: 50px;
+        }
+        .comparison-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .comparison-section {
+            margin-bottom: 40px;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div class="container">
+        <h1 class="comparison-title">So sánh chi tiết</h1>
+
+        <div class="comparison-section">
+            <h3 class="mb-4">Ảnh gốc</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-center">Ảnh truy vấn</h5>
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename=img1) }}" class="img-fluid" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-center">Ảnh tương đồng</h5>
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename=img2) }}" class="img-fluid" alt="Image 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="comparison-section">
+            <h3 class="mb-4">Face Mesh Visualization</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-center">Ảnh truy vấn</h5>
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename=viz1) }}" class="img-fluid" alt="Visualization 1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-center">Ảnh tương đồng</h5>
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename=viz2) }}" class="img-fluid" alt="Visualization 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4 mb-5">
+            <a href="javascript:history.back()" class="btn btn-primary">Quay lại kết quả</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

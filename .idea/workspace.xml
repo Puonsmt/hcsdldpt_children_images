@@ -1,28 +1,356 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a9b5f03-00ec-44c2-bfe6-33525e820c8a" name="Changes" comment="" />
+    <list default="true" id="1a9b5f03-00ec-44c2-bfe6-33525e820c8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project_children_images.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20161220222308131.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170103200329407.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170103200522151.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170103233459275.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170104013211746.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110215927291.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220033115.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220111082.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220235233.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220251986.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220255346.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220316298.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220403810.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220447314.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220503946.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220514186.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220530650.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220539329.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220541850.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220546177.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220548521.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220557169.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220644705.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110220654150.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110221714752.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110221719390.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110221811823.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224223937.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224238891.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224253445.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224255796.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224402264.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224406532.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224416035.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224500062.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224524253.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224549512.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224725285.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110224757882.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225013755.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225035898.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225227587.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225243501.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225246490.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225252799.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225402690.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225414790.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225417177.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225421531.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225442428.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225444491.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225451638.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225502403.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225505288.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225518663.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225528484.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225537307.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225546130.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225557604.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170110225601897.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170116201102149.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170116201328751.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170116201337172.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170117135444407.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170117143048181.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170117175625724.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_0_20170120220628194.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_1_20170104010841239.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_1_20170110220507258.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_1_20170110220523360.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_1_20170110223455893.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_1_20170110223848885.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_1_20170110225121326.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_1_20170110225339066.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_1_20170116225209209.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_2_20170110224230094.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_2_20170116162109013.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_3_20161220215952636.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_3_20170104225233504.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_3_20170104225238736.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_3_20170105175322885.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20161221192738446.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170103200335831.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170103200409638.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170103200443015.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170103200501766.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170103201924664.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170103202338152.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170103212521420.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170103223451479.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_0_4_20170104010810728.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20161220222001459.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170103175323250.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170103200654246.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109201728056.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109202251032.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109202346880.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203218966.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203245653.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203357787.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203427416.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203438428.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203501969.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203512075.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203556029.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203608654.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203642966.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203653735.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203759972.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203905538.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203917216.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109203924076.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204148144.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204244904.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204255055.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204259563.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204338404.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204422889.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204435809.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204502951.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204617417.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204746535.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204844109.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204859493.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109204931156.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109205003280.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109205134282.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109205141310.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170109205208368.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_0_20170110220649364.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_1_20170109202938302.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_1_20170109203348828.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_1_20170109203520178.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_1_20170109203522559.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_1_20170109204636561.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_1_20170110225155603.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_1_20170116225209209.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_1_20170117134313205.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_2_20170103201007646.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_2_20170104005417671.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_2_20170109201545634.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_2_20170109205037024.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_2_20170116175840105.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_3_20170104221633430.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_3_20170104221645430.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_3_20170104221711437.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_3_20170109203848078.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_3_20170109205323078.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_3_20170112211048149.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/10_1_3_20170117144247699.jpg.chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/metadata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/compare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/data_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/feature_extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/search_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_connect.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2wiG7RTsHouWT1nryUfdQtmx7Wf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_processing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.feature_extraction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_connect.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Project/project_children_images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\project_children_images\app\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project_children_images" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project_children_images" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/data_processing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project_children_images" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="feature_extraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project_children_images" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/feature_extraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_connect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project_children_images" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Project\project_children_images\scripts\test_connect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.feature_extraction" />
+        <item itemvalue="Python.data_processing" />
+        <item itemvalue="Python.database" />
+        <item itemvalue="Python.test_connect" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -38,11 +366,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746516812660</updated>
-      <workItem from="1746516813724" duration="3000" />
+      <workItem from="1746516813724" duration="16128000" />
+      <workItem from="1746544304106" duration="4471000" />
+      <workItem from="1746610454053" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project_children_images$data_processing.coverage" NAME="data_processing Coverage Results" MODIFIED="1746525295712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/project_children_images$app.coverage" NAME="app Coverage Results" MODIFIED="1746529786231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/project_children_images$database.coverage" NAME="database Coverage Results" MODIFIED="1746525264190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/project_children_images$feature_extraction.coverage" NAME="feature_extraction Coverage Results" MODIFIED="1746525552550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
